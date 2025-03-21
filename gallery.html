@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BawahTech Consulting</title>
+    <link rel="icon" type="image/x-icon" href="images/website logo.jpeg.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <!-- Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/website logo.jpeg.jpeg" alt="BawahTech Consulting Logo" class="logo">
+            <h1>BawahTech Consulting</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+<section id="gallery" class="gallery">
+    <h2>Our Work</h2>
+    <div class="gallery-grid">
+        <!-- Cybersecurity Intrusion Detection Project -->
+        <div class="gallery-item">
+            <img src="images/cybersecurity intrusion detection.jpeg" alt="Cybersecurity Intrusion Detection">
+            <h3>Cybersecurity Intrusion Detection</h3>
+            <p>
+                This project addresses the critical challenge of detecting cyber threats in network traffic using machine learning. 
+                The dataset, sourced from Kaggle, included features like network packet size, login attempts, session duration, 
+                IP reputation score, failed logins, unusual time access, protocol type, encryption used, and browser type. 
+                The target variable was binary: attack detected (Yes/No).
+            </p>
+            <p>
+                <strong>Model Selection:</strong> Random Forest classifier was used for its robustness and ability to handle high-dimensional data. 
+                Hyperparameter tuning was performed using Grid Search to optimize performance.
+            </p>
+            <p>
+                <strong>Deployment:</strong> The model was deployed as an interactive web application using Gradio and hosted on Hugging Face Spaces for real-time predictions.
+            </p>
+            <p>
+                <strong>Associated with:</strong> Student at National Computing Center Education - IPMC, Cybersecurity Short Course.
+            </p>
+            <a href="https://huggingface.co/spaces/Augustus100/Cybersecurity_intrusion_detection" target="_blank">View Project</a>
+        </div>
+
+        <!-- Add more projects here -->
+        <div class="gallery-item">
+            <img src="images/phishing attacks.jpg" alt="Phishing Email Detection">
+            <h3>Phishing Email Detection</h3>
+            <p>
+                This project focuses on detecting phishing emails using machine learning. The dataset sourced from Kaggle included email text and  
+                labels. The target variable was binary: phishing (0/1). zero(0) means the email is legitimate and one(1) means its a phishing email.
+            </p>
+            <p>
+                <strong>Model Selection:</strong> A RandomForestClassifier model was used for its interpretability and effectiveness in binary classification tasks. 
+                Feature engineering included TF-IDF vectorization for text data and tokenization for additional context.
+            </p>
+            <p>
+                <strong>Deployment:</strong> The model was deployed as an interactive web application using Gradio and hosted on Hugging Face Spaces for real-time predictions.
+            </p>
+            <p>
+                <strong>Associated with:</strong> Student at National Computing Center Education - IPMC, Cybersecurity Short Course.
+            </p>
+            <a href="https://huggingface.co/spaces/Augustus100/PhishDetect" target="_blank">View Project</a>
+        </div>
+        
+        <!-- Add more projects here -->
+    </div>
+</section>
+
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 BawahTech Consulting. All rights reserved.</p>
+        <div class="footer-info">
+            <p>Opening Hours: 8:00 AM - 6:00 PM (GMT)</p>
+        </div>
+        <div class="social-media">
+            <a href="https://twitter.com/@Lil_bawah" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://wa.me/233549079497" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://instagram.com/lil_bawah" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/augustus-bawah-3881a8237" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

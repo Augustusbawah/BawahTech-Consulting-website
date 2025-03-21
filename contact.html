@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BawahTech Consulting</title>
+    <link rel="icon" type="image/x-icon" href="images/website logo.jpeg.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <!-- Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/website logo.jpeg.jpeg" alt="BawahTech Consulting Logo" class="logo">
+            <h1>BawahTech Consulting</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>We’d love to hear from you! Whether you have a question about our services, need a consultation, or just want to say hello, feel free to reach out.</p>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:johnbawah50@gmail.com">johnbawah50@gmail.com</a></li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+233549079497">+233 549079497</a> / <a href="tel:+233578514421">+233 578514421</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> GC-148-4864 Linken Lane, ACCRA - GHANA</li>
+                </ul>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xjkykkbg" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                     <!-- Add a subject line for the email -->
+                    <input type="hidden" name="_subject" value="New Message from BawahTech Consulting">
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Google Map -->
+            <div class="google-map">
+                <h3>Our Location</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.755734381318!2d-0.200682685231957!3d5.603822995932239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2b7a773%3A0x6f6c7b1a1a1a1a1a!2sAccra%2C%20Ghana!5e0!3m2!1sen!2sgh!4v1633020000000!5m2!1sen!2sgh" 
+                    width="100%" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 BawahTech Consulting. All rights reserved.</p>
+            <div class="footer-info">
+                <p>Opening Hours: 8:00 AM - 6:00 PM (GMT)</p>
+            </div>
+            <div class="social-media">
+                <a href="https://twitter.com/@Lil_bawah" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://wa.me/233549079497" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com/lil_bawah" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/augustus-bawah-3881a8237" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
